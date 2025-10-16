@@ -67,7 +67,9 @@ fun TataLetakBox(modifier: Modifier) {
 @Composable
 fun TataLetakColumnRow(modifier: Modifier) {
     Column(
-        modifier = modifier.padding(16.dp)
+        modifier = modifier
+            .padding(16.dp)
+            .background(Color(0xFFE0F7FA))
     ) {
         Row(modifier = modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly) {
