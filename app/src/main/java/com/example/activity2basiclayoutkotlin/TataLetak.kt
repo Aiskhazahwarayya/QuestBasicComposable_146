@@ -53,8 +53,9 @@ fun TataLetakRow(modifier: Modifier) {
 fun TataLetakBox(modifier: Modifier) {
     Box (
         modifier = modifier
+            .fillMaxWidth()
             .fillMaxHeight()
-            .fillMaxWidth(), contentAlignment = Alignment.Center
+            .background(Color.LightGray), contentAlignment = Alignment.Center
     ) {
         Text(text = "Box 1")
         Text(text = "Column 1")
