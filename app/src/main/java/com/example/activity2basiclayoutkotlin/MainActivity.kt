@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Activity2BasicLayoutKotlinTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    TataLetakBox(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
