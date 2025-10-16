@@ -112,7 +112,9 @@ fun TataLetakRowColumn(modifier: Modifier) {
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier) {
     val gambar = painterResource(id = R.drawable.notasibalok)
-    Column {
+    Column (
+        modifier = Modifier.background(Color(0xFFFFF9C4))
+    ) {
         Box(
             modifier = modifier
                 .fillMaxWidth()
