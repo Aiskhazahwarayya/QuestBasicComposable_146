@@ -95,7 +95,10 @@ fun TataLetakRowColumn(modifier: Modifier) {
     Row(modifier = modifier
         .fillMaxWidth()
         .padding(16.dp), horizontalArrangement = Arrangement.SpaceEvenly) {
-        Column() {
+        Column(modifier = Modifier
+            .background(Color(0xFFFFF9C4))
+            .border(2.dp, Color.Gray, RoundedCornerShape(12.dp)) // garis dan sudut lembut
+            .padding(8.dp)) {
             Text(text = "Komponen1Kolom1")
             Text(text = "Komponen2Kolom1")
             Text(text = "Komponen3Kolom1")
