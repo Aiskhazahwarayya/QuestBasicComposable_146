@@ -116,7 +116,9 @@ fun TataLetakRowColumn(modifier: Modifier) {
 fun TataletakBoxColumnRow(modifier: Modifier) {
     val gambar = painterResource(id = R.drawable.notasibalok)
     Column (
-        modifier = Modifier.background(Color(0xFFFFF9C4))
+        modifier = Modifier
+            .background(Color(0xFFFFF9C4))
+            .padding(16.dp)
     ) {
         Box(
             modifier = modifier
